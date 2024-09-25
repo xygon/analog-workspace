@@ -1,6 +1,8 @@
 # Editor configuration, see http://editorconfig.org
 root = true
 
+# Use this where possible, only add things to .prettierrc if it can't be done using this file
+
 [*]
 charset = utf-8
 indent_style = space
