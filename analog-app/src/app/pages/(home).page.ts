@@ -1,10 +1,10 @@
-import { Component } from "@angular/core";
-import { RouterLink } from "@angular/router";
+import { Component } from '@angular/core';
+import { RouterLink } from '@angular/router';
 
-import { AnalogWelcomeComponent } from "./analog-welcome.component";
+import { AnalogWelcomeComponent } from './analog-welcome.component';
 
 @Component({
-  selector: "analog-app-home",
+  selector: 'analog-app-home',
   standalone: true,
   imports: [RouterLink, AnalogWelcomeComponent],
   template: `

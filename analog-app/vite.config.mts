@@ -9,12 +9,7 @@ import { defineConfig } from 'vite';
 // https://vitejs.dev/config/
 export default defineConfig(({ mode }) => {
   return {
-    plugins: [
-      angular(),
-      
-        nxViteTsPaths()
-      
-    ],
+    plugins: [angular(), nxViteTsPaths()],
     test: {
       globals: true,
       environment: 'jsdom',

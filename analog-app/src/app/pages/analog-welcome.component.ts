@@ -6,9 +6,20 @@ import { Component } from '@angular/core';
   styles: [
     `
       :host {
-        font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont,
-          'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans', sans-serif,
-          'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol',
+        font-family:
+          ui-sans-serif,
+          system-ui,
+          -apple-system,
+          BlinkMacSystemFont,
+          'Segoe UI',
+          Roboto,
+          'Helvetica Neue',
+          Arial,
+          'Noto Sans',
+          sans-serif,
+          'Apple Color Emoji',
+          'Segoe UI Emoji',
+          'Segoe UI Symbol',
           'Noto Color Emoji';
         display: flex;
         padding: 2rem 1rem 8rem;
@@ -203,7 +214,8 @@ import { Component } from '@angular/core';
       }
       .count {
         margin-left: 0.25rem;
-        font-family: Menlo, Monaco, Consolas, 'Liberation Mono', 'Courier New', monospace;
+        font-family: Menlo, Monaco, Consolas, 'Liberation Mono', 'Courier New',
+          monospace;
       }
     `,
   ],
@@ -242,7 +254,7 @@ import { Component } from '@angular/core';
           </div>
         </div>
       </section>
-    <section id="counter-demo" class="section">
+      <section id="counter-demo" class="section">
         <div class="counter-container">
           <h2 class="counter-heading">Counter</h2>
           <p class="counter-description">

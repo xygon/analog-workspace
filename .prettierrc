@@ -1,4 +1,4 @@
 {
-    "experimentalTernaries": true,
-    "singleQuote": true
+  "experimentalTernaries": true,
+  "singleQuote": true
 }
