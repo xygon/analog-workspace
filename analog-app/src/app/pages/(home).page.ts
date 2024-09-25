@@ -1,14 +1,16 @@
-import { Component } from '@angular/core';
+import { Component } from "@angular/core";
+import { RouterLink } from "@angular/router";
 
-import { AnalogWelcomeComponent } from './analog-welcome.component';
+import { AnalogWelcomeComponent } from "./analog-welcome.component";
 
 @Component({
-  selector: 'analog-app-home',
+  selector: "analog-app-home",
   standalone: true,
-  imports: [AnalogWelcomeComponent],
+  imports: [RouterLink, AnalogWelcomeComponent],
   template: `
-     <analog-app-analog-welcome/>
+    <analog-app-analog-welcome />
+    <hr />
+    <a routerLink="/about">Go to About</a>
   `,
 })
-export default class HomeComponent {
-}
+export default class HomeComponent {}
