@@ -7,6 +7,7 @@
   "targets": {
     "build": {
       "executor": "@analogjs/platform:vite",
+      "cache": true,
       "defaultConfiguration": "production",
       "configurations": {
         "development": {
@@ -48,7 +49,8 @@
       }
     },
     "test": {
-      "executor": "@analogjs/vitest-angular:test"
+      "executor": "@analogjs/vitest-angular:test",
+      "cache": true
     }
   }
 }
