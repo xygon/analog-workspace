@@ -26,7 +26,7 @@
       ],
       "options": {
         "main": "analog-app/src/main.ts",
-        "configFile": "analog-app/vite.config.ts",
+        "configFile": "analog-app/vite.config.mts",
         "outputPath": "dist/analog-app/client",
         "tsConfig": "analog-app/tsconfig.app.json"
       }
